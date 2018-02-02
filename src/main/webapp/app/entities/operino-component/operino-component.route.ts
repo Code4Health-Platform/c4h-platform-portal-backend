@@ -18,14 +18,14 @@ export const operinoComponentRoute: Routes = [
     component: OperinoComponentComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'Operino Components'
+        pageTitle: 'Bundle Components'
     }
   }, {
     path: 'operino-component/:id',
     component: OperinoComponentDetailComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'Operino Components'
+        pageTitle: 'Bundle Components'
     }
   }
 ];
@@ -36,7 +36,7 @@ export const operinoComponentPopupRoute: Routes = [
     component: OperinoComponentPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'Operino Components'
+        pageTitle: 'Bundle Components'
     },
     outlet: 'popup'
   },
@@ -45,7 +45,7 @@ export const operinoComponentPopupRoute: Routes = [
     component: OperinoComponentPopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'Operino Components'
+        pageTitle: 'Bundle Components'
     },
     outlet: 'popup'
   },
@@ -54,7 +54,7 @@ export const operinoComponentPopupRoute: Routes = [
     component: OperinoComponentDeletePopupComponent,
     data: {
         authorities: ['ROLE_USER'],
-        pageTitle: 'Operino Components'
+        pageTitle: 'Bundle Components'
     },
     outlet: 'popup'
   }

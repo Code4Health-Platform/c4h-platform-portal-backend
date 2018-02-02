@@ -1,6 +1,6 @@
 
 <div *ngIf="operinoComponent">
-    <h2><span jhiTranslateDisabled="operonCloudPlatformApp.operinoComponent.detail.title">Operino Component</span> {{operinoComponent.id}}</h2>
+    <h2><span jhiTranslateDisabled="operonCloudPlatformApp.operinoComponent.detail.title">Bundle Component</span> {{operinoComponent.id}}</h2>
     <hr>
     <jhi-alert-error></jhi-alert-error>
     <dl class="row-md jh-entity-details">
@@ -36,7 +36,7 @@
         <dd>
             <span>{{operinoComponent.type}}</span>
         </dd>
-        <dt><span jhiTranslateDisabled="operonCloudPlatformApp.operinoComponent.operino">Operino</span></dt>
+        <dt><span jhiTranslateDisabled="operonCloudPlatformApp.operinoComponent.operino">Bundle</span></dt>
         <dd>
             <div *ngIf="operinoComponent.operino">
                 <a [routerLink]="['/operino', operinoComponent.operino?.id]">{{operinoComponent.operino?.name}}</a>

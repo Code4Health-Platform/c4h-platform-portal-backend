@@ -2,20 +2,20 @@
     "operonCloudPlatformApp": {
         "operinoComponent" : {
             "home": {
-                "title": "Operino Components",
-                "createLabel": "Add an Operino Component",
-                "createOrEditLabel": "Create or edit a Operino Component",
-                "search": "Search for Operino Component",
-                "missing": "Oh no! You don't have any operino components! You can add a component using the green button 'Add an Operino Component' button."
+                "title": "Bundle Components",
+                "createLabel": "Add a Bundle Component",
+                "createOrEditLabel": "Create or edit a Bundle Component",
+                "search": "Search for Bundle Component",
+                "missing": "Oh no! This Bundle has no components! You can add a component using the green button 'Add a Bundle Component' button."
             },
-            "created": "A new Operino Component is created with identifier {{ param }}",
-            "updated": "A Operino Component is updated with identifier {{ param }}",
-            "deleted": "A Operino Component is deleted with identifier {{ param }}",
+            "created": "A new Bundle Component is created with identifier {{ param }}",
+            "updated": "A Bundle Component is updated with identifier {{ param }}",
+            "deleted": "A Bundle Component is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Operino Component {{ id }}?"
+                "question": "Are you sure you want to delete Bundle Component {{ id }}?"
             },
             "detail": {
-                "title": "Operino Component"
+                "title": "Bundle Component"
             },
             "hosting": "Hosting",
             "availability": "Active",

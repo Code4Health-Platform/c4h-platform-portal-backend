@@ -2,21 +2,21 @@
     "operonCloudPlatformApp": {
         "operino" : {
             "home": {
-                "title": "Operinos",
-                "createLabel": "Create a new Operino",
-                "createSandbox": "Create Sandbox Operino",
-                "createOrEditLabel": "Create or edit a Operino",
-                "search": "Search for Operino",
-                "missing": "Oh no! You don't have any operinos! You can create a new Operino using the green button above or you can create the Sandbox operino to get up and running quickly!"
+                "title": "Bundles",
+                "createLabel": "Create a new Bundle",
+                "createSandbox": "Create Sandbox Bundle",
+                "createOrEditLabel": "Create or edit a Bundle",
+                "search": "Search for Bundle",
+                "missing": "Oh no! You don't have any Bundles! You can create a new Bundle using the green button above or you can create the Sandbox Bundle to get up and running quickly!"
             },
-            "created": "A new Operino is created with identifier {{ param }}",
-            "updated": "A Operino is updated with identifier {{ param }}",
-            "deleted": "A Operino is deleted with identifier {{ param }}",
+            "created": "A new Bundle is created with identifier {{ param }}",
+            "updated": "A Bundle is updated with identifier {{ param }}",
+            "deleted": "A Bundle is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Operino {{ name }}?"
+                "question": "Are you sure you want to delete Bundle {{ name }}?"
             },
             "detail": {
-                "title": "Operino"
+                "title": "Bundle"
             },
             "config": {
                 "token": "API Token",
@@ -27,8 +27,8 @@
             },
             "sandbox": {
                 "what": {
-                    "q": "What is an Operino?",
-                    "a": "The building blocks of the platform are called Operinos. An Operino provides a container for a set of services (or Operino components) from the platform that you need for a particular application."
+                    "q": "What is an Bundle?",
+                    "a": "The building blocks of the platform are called Bundles. An Bundle provides a container for a set of services (or Bundle components) from the platform that you need for a particular application."
                 },
                 "cdr": {
                     "q": "What is a CDR?",
@@ -46,7 +46,7 @@
             "resources": {
                 "header": "Resources",
                 "explorer": {
-                    "title": "Manage resources (archetypes, templates) for your Operino CDR",
+                    "title": "Manage resources (archetypes, templates) for your CDR",
                     "url": "https://explorer.code4health.org/explorer"
                 },
                 "api": {
