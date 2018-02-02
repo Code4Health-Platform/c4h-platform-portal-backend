@@ -3,7 +3,7 @@
         <a class="jh-navbar-toggler hidden-lg-up float-right" href="javascript:void(0);" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
             <i class="fa fa-bars"></i>
         </a>
-        <a class="navbar-brand logo float-left" href="https://code4health.org" (click)="collapseNavbar()">
+        <a class="navbar-brand logo float-left" href="/" (click)="collapseNavbar()">
             <span class="logo-img"></span>
         </a>
     </div>
@@ -14,36 +14,7 @@
                     <span jhiTranslate="global.menu.home">Platform</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://code4health.org/learning">
-                    <span>Learning</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://code4health.org/communities">
-                    <span>Communities</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://code4health.org/supporters">
-                    <span>Supporters</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://code4health.org/events">
-                    <span>Events</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://www.apperta.org/what_we_do" target="_blank">
-                    <span>Products</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://code4health.org/values">
-                    <span>Values</span>
-                </a>
-            </li>
+
             <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
             <li *jhiHasAnyAuthority="'ROLE_ADMIN'" ngbDropdown class="nav-item dropdown pointer">
                 <a class="nav-link dropdown-toggle" routerLinkActive="active" ngbDropdownToggle href="javascript:void(0);" id="entity-menu">

@@ -1,20 +1,20 @@
 {
     "home": {
-        "title": "Welcome to Code4Health Platform",
+        "title": "Welcome to Inidus Platform",
         "subtitle": "This is your homepage",
         "logged": {
-            "message": "You are logged in as user \"{{username}}\"."
+            "message": "You are logged in as {{username}}."
         },
-        "question": "If you have any question on Code4Health Platform:",
+        "question": "If you have any question on Inidus Platform:",
         "link": {
-            "homepage": "Code4Health homepage",
-            "docs": "Code4Health Platform Documentation",
-            "support": "Code4Health Support",
-            "bugtracker": "Code4Health bug tracker",
-            "chat": "Code4Health public chat room",
+            "homepage": "Inidus homepage",
+            "docs": "Inidus Platform Documentation",
+            "support": "Inidus Support",
+            "bugtracker": "Inidus bug tracker",
+            "chat": "Inidus public chat room",
             "follow": "Follow us on Twitter"
         },
-        "like": "If you like Code4Health, don't forget to give us a star on",
+        "like": "If you like Inidus, don't forget to give us a star on",
         "github": "GitHub"
     }
 }

@@ -8,7 +8,7 @@ export const HOME_ROUTE: Route = {
   component: HomeComponent,
   data: {
     authorities: [],
-    pageTitle: 'Welcome to Code4Health Platform'
+    pageTitle: 'Welcome to Inidus Platform'
   },
   canActivate: [UserRouteAccessService]
 };

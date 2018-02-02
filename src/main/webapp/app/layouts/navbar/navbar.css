@@ -1,6 +1,7 @@
 /* ==========================================================================
 Navbar
 ========================================================================== */
+
 .navbar-version {
     font-size: 10px;
     color: #ccc
@@ -39,7 +40,7 @@ Navbar
     font-weight: 400;
 }
 
-.navbar li > a:hover {
+.navbar li>a:hover {
     color: #ffffff;
     background-color: #6f777b;
     text-decoration: underline;
@@ -51,7 +52,9 @@ Navbar
     text-decoration: none;
 }
 
-.navbar li.active a { color: #ffffff; }
+.navbar li.active a {
+    color: #ffffff;
+}
 
 .jh-navbar .jh-navbar-toggler {
     color: #ccc;
@@ -62,8 +65,6 @@ Navbar
 .jh-navbar .jh-navbar-toggler:hover {
     color: #fff;
 }
-
-
 
 @media screen and (max-width: 992px) {
     .jh-logo-container {
@@ -79,11 +80,12 @@ Navbar
 /* ==========================================================================
 Logo styles
 ========================================================================== */
+
 .navbar-brand.logo {
     padding: 1px 1px;
 }
 
-.jh-logo-container > a:hover {
+.jh-logo-container>a:hover {
     background-color: transparent;
     text-decoration: none;
 }
@@ -97,7 +99,7 @@ Logo styles
 
 .logo-img {
     height: 100%;
-    background: url("../../../content/images/logo-c4h.png") no-repeat center center;
+    background: url("../../../content/images/inidus-logo_white-green-300x101.png") no-repeat center center;
     background-size: contain;
     width: 100%;
 }

@@ -1,6 +1,6 @@
 {
     "home": {
-        "title": "Välkommen pa Code4Health Platform!",
+        "title": "Välkommen pa Inidus Platform!",
         "subtitle": "Det här är din hemsida",
         "logged": {
             "message": "Du är inloggad som \"{{username}}\"."

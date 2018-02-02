@@ -1,13 +1,13 @@
 {
     "footer": {
         "link": {
-            "homepage": "Code4Health",
-            "stackoverflow": "Code4Health on Stack Overflow",
+            "homepage": "Inidus",
+            "stackoverflow": "Inidus on Stack Overflow",
             "bugtracker": "Report issues",
-            "chat": "Code4Health public chat room",
+            "chat": "Inidus public chat room",
             "follow": "Follow us on Twitter",
             "github": "GitHub"
         },
-        "like": "If you like Code4Health, don't forget to give us a star on"
+        "like": "If you like Inidus, don't forget to give us a star on"
     }
 }
